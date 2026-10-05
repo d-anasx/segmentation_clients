@@ -72,3 +72,7 @@ Nombre de PC retenues
   - `PCA = 2`
   - `k = 3`
   - `Silhouette = 0.448719`
+
+## DBSCAN 
+- Density-Based Spatial Clustering of Applications with Noise.
+![Alt text](images/image.png)
