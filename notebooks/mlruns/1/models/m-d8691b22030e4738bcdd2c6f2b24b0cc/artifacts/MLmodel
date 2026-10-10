@@ -1,0 +1,24 @@
+artifact_path: file:c:/Users/Youcode/Desktop/DEV Ai/segmentation_clients/notebooks/mlruns/1/models/m-d8691b22030e4738bcdd2c6f2b24b0cc/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.14
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.17.0
+model_id: m-d8691b22030e4738bcdd2c6f2b24b0cc
+model_size_bytes: 29033
+model_uuid: m-d8691b22030e4738bcdd2c6f2b24b0cc
+prompts: null
+run_id: 55d2ac5ae6494039aa8494e20f032e97
+utc_time_created: '2026-10-10 22:11:33.285750'
